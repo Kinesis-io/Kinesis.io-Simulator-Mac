@@ -29,6 +29,7 @@
 		EC04309D1573A5780075AE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC04309E1573A5780075AE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC0430A11573A5790075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC0430A81573A9580075AE6C /* Kinesis Simulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Kinesis Simulator.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		EC0430911573A5780075AE6C /* Kinesis Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				EC0430A81573A9580075AE6C /* Kinesis Simulator.entitlements */,
 				EC04309D1573A5780075AE6C /* AppDelegate.h */,
 				EC04309E1573A5780075AE6C /* AppDelegate.m */,
 				EC0430A01573A5790075AE6C /* MainMenu.xib */,
@@ -250,6 +252,7 @@
 		EC0430A61573A5790075AE6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Kinesis Simulator/Kinesis Simulator.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
 				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
@@ -261,6 +264,7 @@
 		EC0430A71573A5790075AE6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Kinesis Simulator/Kinesis Simulator.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
 				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
