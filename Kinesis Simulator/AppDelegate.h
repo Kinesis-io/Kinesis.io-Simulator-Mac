@@ -12,4 +12,5 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (weak) IBOutlet NSView *handTrackingView;
 @end
