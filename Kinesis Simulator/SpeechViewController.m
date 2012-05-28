@@ -13,6 +13,7 @@
 @end
 
 @implementation SpeechViewController
+@synthesize commands;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,4 +25,6 @@
     return self;
 }
 
+- (IBAction)sendCommands:(id)sender {
+}
 @end
