@@ -40,6 +40,7 @@
 		ECFAA5C01573E55F00CB3473 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5A71573E55F00CB3473 /* ContextFilterLogFormatter.m */; };
 		ECFAA5C11573E55F00CB3473 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5A91573E55F00CB3473 /* DispatchQueueLogFormatter.m */; };
 		ECFAA5C21573E55F00CB3473 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECFAA5AA1573E55F00CB3473 /* README.txt */; };
+		ECFAA5C91573EDC300CB3473 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFAA5C81573EDC300CB3473 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,7 @@
 		ECFAA5A81573E55F00CB3473 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		ECFAA5A91573E55F00CB3473 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		ECFAA5AA1573E55F00CB3473 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		ECFAA5C81573EDC300CB3473 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC04308C1573A5780075AE6C /* Cocoa.framework in Frameworks */,
+				ECFAA5C91573EDC300CB3473 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +148,7 @@
 		EC04308A1573A5780075AE6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECFAA5C81573EDC300CB3473 /* Security.framework */,
 				EC04308B1573A5780075AE6C /* Cocoa.framework */,
 				EC04308D1573A5780075AE6C /* Other Frameworks */,
 			);
