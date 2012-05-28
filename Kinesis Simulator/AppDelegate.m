@@ -10,6 +10,10 @@
 
 @implementation AppDelegate
 
+@synthesize startServerButton = _startServerButton;
+@synthesize stopServerButton = _stopServerButton;
+@synthesize connectKinectButton = _connectKinectButton;
+@synthesize disconnectKinectButton = _disconnectKinectButton;
 @synthesize window = _window;
 @synthesize handTrackingView = _handTrackingView;
 
@@ -19,4 +23,15 @@
     
 }
 
+- (IBAction)startServer:(id)sender {
+}
+
+- (IBAction)stopServer:(id)sender {
+}
+
+- (IBAction)connectKinect:(id)sender {
+}
+
+- (IBAction)disconnectKinect:(id)sender {
+}
 @end

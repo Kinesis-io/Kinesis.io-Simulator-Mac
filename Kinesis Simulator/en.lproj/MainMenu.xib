@@ -260,7 +260,7 @@
 							<string key="NSFrame">{{7, 2}, {513, 305}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="447964463"/>
+							<reference key="NSNextKeyView" ref="1043247252"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="241321886">
@@ -821,7 +821,6 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{406, 20}, {86, 25}}</string>
 												<reference key="NSSuperview" ref="728442522"/>
-												<reference key="NSNextKeyView"/>
 												<string key="NSReuseIdentifierKey">_NS:22</string>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="444013926">
@@ -1012,7 +1011,7 @@
 								<object class="NSTabViewItem" id="962419692">
 									<string key="NSIdentifier">2</string>
 									<object class="NSView" key="NSView" id="1043247252">
-										<nil key="NSNextResponder"/>
+										<reference key="NSNextResponder" ref="983161601"/>
 										<int key="NSvFlags">256</int>
 										<array class="NSMutableArray" key="NSSubviews">
 											<object class="NSTextField" id="473060776">
@@ -1020,6 +1019,7 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{98, 149}, {326, 22}}</string>
 												<reference key="NSSuperview" ref="1043247252"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="581470574"/>
 												<string key="NSReuseIdentifierKey">_NS:9</string>
 												<bool key="NSEnabled">YES</bool>
@@ -1040,6 +1040,7 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{239, 100}, {45, 25}}</string>
 												<reference key="NSSuperview" ref="1043247252"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="983161601"/>
 												<string key="NSReuseIdentifierKey">_NS:22</string>
 												<bool key="NSEnabled">YES</bool>
@@ -1063,6 +1064,7 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{42, 211}, {422, 17}}</string>
 												<reference key="NSSuperview" ref="1043247252"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="473060776"/>
 												<string key="NSReuseIdentifierKey">_NS:1505</string>
 												<bool key="NSEnabled">YES</bool>
@@ -1079,6 +1081,8 @@
 											</object>
 										</array>
 										<string key="NSFrame">{{10, 33}, {493, 259}}</string>
+										<reference key="NSSuperview" ref="983161601"/>
+										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="650030717"/>
 										<string key="NSReuseIdentifierKey">_NS:28</string>
 									</object>
@@ -1088,7 +1092,7 @@
 								</object>
 								<object class="NSTabViewItem" id="31198796">
 									<object class="NSView" key="NSView" id="447964463">
-										<reference key="NSNextResponder" ref="983161601"/>
+										<nil key="NSNextResponder"/>
 										<int key="NSvFlags">256</int>
 										<array class="NSMutableArray" key="NSSubviews">
 											<object class="NSCustomView" id="30994864">
@@ -1096,7 +1100,6 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{250, 26}, {226, 221}}</string>
 												<reference key="NSSuperview" ref="447964463"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="983161601"/>
 												<string key="NSReuseIdentifierKey">_NS:9</string>
 												<string key="NSClassName">NSView</string>
@@ -1106,7 +1109,6 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{27, 13}, {206, 21}}</string>
 												<reference key="NSSuperview" ref="447964463"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="30994864"/>
 												<string key="NSReuseIdentifierKey">_NS:9</string>
 												<bool key="NSEnabled">YES</bool>
@@ -1128,8 +1130,6 @@
 											</object>
 										</array>
 										<string key="NSFrame">{{10, 33}, {493, 259}}</string>
-										<reference key="NSSuperview" ref="983161601"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="68027449"/>
 									</object>
 									<string key="NSLabel">Hand Tracking</string>
@@ -1148,13 +1148,13 @@
 									<reference key="NSTabView" ref="983161601"/>
 								</object>
 							</array>
-							<reference key="NSSelectedTabViewItem" ref="31198796"/>
+							<reference key="NSSelectedTabViewItem" ref="962419692"/>
 							<reference key="NSFont" ref="948674347"/>
 							<int key="NSTvFlags">0</int>
 							<bool key="NSAllowTruncatedLabels">YES</bool>
 							<bool key="NSDrawsBackground">YES</bool>
 							<array class="NSMutableArray" key="NSSubviews">
-								<reference ref="447964463"/>
+								<reference ref="1043247252"/>
 							</array>
 						</object>
 					</array>
@@ -1243,6 +1243,70 @@
 						<reference key="destination" ref="30994864"/>
 					</object>
 					<int key="connectionID">2005</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">startServerButton</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="791666558"/>
+					</object>
+					<int key="connectionID">2023</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stopServerButton</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="229510540"/>
+					</object>
+					<int key="connectionID">2024</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">connectKinectButton</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="109028320"/>
+					</object>
+					<int key="connectionID">2025</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">disconnectKinectButton</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="378154675"/>
+					</object>
+					<int key="connectionID">2026</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">startServer:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="791666558"/>
+					</object>
+					<int key="connectionID">2027</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopServer:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="229510540"/>
+					</object>
+					<int key="connectionID">2028</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">connectKinect:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="109028320"/>
+					</object>
+					<int key="connectionID">2029</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">disconnectKinect:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="378154675"/>
+					</object>
+					<int key="connectionID">2030</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -4850,21 +4914,65 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">2022</int>
+			<int key="maxID">2030</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
 					<string key="className">AppDelegate</string>
 					<string key="superclassName">NSObject</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="connectKinect:">id</string>
+						<string key="disconnectKinect:">id</string>
+						<string key="startServer:">id</string>
+						<string key="stopServer:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="connectKinect:">
+							<string key="name">connectKinect:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="disconnectKinect:">
+							<string key="name">disconnectKinect:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="startServer:">
+							<string key="name">startServer:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stopServer:">
+							<string key="name">stopServer:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="connectKinectButton">NSButton</string>
+						<string key="disconnectKinectButton">NSButton</string>
 						<string key="handTrackingView">NSView</string>
+						<string key="startServerButton">NSButton</string>
+						<string key="stopServerButton">NSButton</string>
 						<string key="window">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="connectKinectButton">
+							<string key="name">connectKinectButton</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="disconnectKinectButton">
+							<string key="name">disconnectKinectButton</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="handTrackingView">
 							<string key="name">handTrackingView</string>
 							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="startServerButton">
+							<string key="name">startServerButton</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="stopServerButton">
+							<string key="name">stopServerButton</string>
+							<string key="candidateClassName">NSButton</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="window">
 							<string key="name">window</string>
