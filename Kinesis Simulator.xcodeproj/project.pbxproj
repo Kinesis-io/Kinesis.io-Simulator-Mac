@@ -41,6 +41,8 @@
 		ECFAA5C11573E55F00CB3473 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5A91573E55F00CB3473 /* DispatchQueueLogFormatter.m */; };
 		ECFAA5C21573E55F00CB3473 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECFAA5AA1573E55F00CB3473 /* README.txt */; };
 		ECFAA5C91573EDC300CB3473 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFAA5C81573EDC300CB3473 /* Security.framework */; };
+		ECFAA5D0157410D200CB3473 /* KinesisConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5CF157410D200CB3473 /* KinesisConnection.m */; };
+		ECFAA5D3157410E900CB3473 /* KinesisWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +114,10 @@
 		ECFAA5A91573E55F00CB3473 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		ECFAA5AA1573E55F00CB3473 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		ECFAA5C81573EDC300CB3473 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ECFAA5CE157410D200CB3473 /* KinesisConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinesisConnection.h; sourceTree = "<group>"; };
+		ECFAA5CF157410D200CB3473 /* KinesisConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinesisConnection.m; sourceTree = "<group>"; };
+		ECFAA5D1157410E900CB3473 /* KinesisWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinesisWebSocket.h; sourceTree = "<group>"; };
+		ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinesisWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,10 @@
 				ECFAA55B1573B21800CB3473 /* SpeechViewController.m */,
 				ECFAA55E1573B22300CB3473 /* HandTrackingViewController.h */,
 				ECFAA55F1573B22300CB3473 /* HandTrackingViewController.m */,
+				ECFAA5CE157410D200CB3473 /* KinesisConnection.h */,
+				ECFAA5CF157410D200CB3473 /* KinesisConnection.m */,
+				ECFAA5D1157410E900CB3473 /* KinesisWebSocket.h */,
+				ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */,
 			);
 			path = "Kinesis Simulator";
 			sourceTree = "<group>";
@@ -390,6 +400,8 @@
 				ECFAA5BF1573E55F00CB3473 /* DDTTYLogger.m in Sources */,
 				ECFAA5C01573E55F00CB3473 /* ContextFilterLogFormatter.m in Sources */,
 				ECFAA5C11573E55F00CB3473 /* DispatchQueueLogFormatter.m in Sources */,
+				ECFAA5D0157410D200CB3473 /* KinesisConnection.m in Sources */,
+				ECFAA5D3157410E900CB3473 /* KinesisWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
