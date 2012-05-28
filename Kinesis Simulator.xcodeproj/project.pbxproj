@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC04308C1573A5780075AE6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC04308B1573A5780075AE6C /* Cocoa.framework */; };
+		EC0430961573A5780075AE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC0430941573A5780075AE6C /* InfoPlist.strings */; };
+		EC0430981573A5780075AE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0430971573A5780075AE6C /* main.m */; };
+		EC04309C1573A5780075AE6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC04309A1573A5780075AE6C /* Credits.rtf */; };
+		EC04309F1573A5780075AE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04309E1573A5780075AE6C /* AppDelegate.m */; };
+		EC0430A21573A5790075AE6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0430A01573A5790075AE6C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0430871573A5780075AE6C /* Kinesis Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinesis Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04308B1573A5780075AE6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EC04308E1573A5780075AE6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC04308F1573A5780075AE6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC0430901573A5780075AE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC0430931573A5780075AE6C /* Kinesis Simulator-Info.plist */ = {isa = PBXFileReference; path = "Kinesis Simulator-Info.plist"; sourceTree = "<group>"; };
+		EC0430951573A5780075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC0430971573A5780075AE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0430991573A5780075AE6C /* Kinesis Simulator-Prefix.pch */ = {isa = PBXFileReference; path = "Kinesis Simulator-Prefix.pch"; sourceTree = "<group>"; };
+		EC04309B1573A5780075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC04309D1573A5780075AE6C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC04309E1573A5780075AE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC0430A11573A5790075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0430841573A5780075AE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04308C1573A5780075AE6C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC04307C1573A5780075AE6C = {
+			isa = PBXGroup;
+			children = (
+				EC0430911573A5780075AE6C /* Kinesis Simulator */,
+				EC04308A1573A5780075AE6C /* Frameworks */,
+				EC0430881573A5780075AE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0430881573A5780075AE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0430871573A5780075AE6C /* Kinesis Simulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC04308A1573A5780075AE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC04308B1573A5780075AE6C /* Cocoa.framework */,
+				EC04308D1573A5780075AE6C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC04308D1573A5780075AE6C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC04308E1573A5780075AE6C /* AppKit.framework */,
+				EC04308F1573A5780075AE6C /* CoreData.framework */,
+				EC0430901573A5780075AE6C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC0430911573A5780075AE6C /* Kinesis Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				EC04309D1573A5780075AE6C /* AppDelegate.h */,
+				EC04309E1573A5780075AE6C /* AppDelegate.m */,
+				EC0430A01573A5790075AE6C /* MainMenu.xib */,
+				EC0430921573A5780075AE6C /* Supporting Files */,
+			);
+			path = "Kinesis Simulator";
+			sourceTree = "<group>";
+		};
+		EC0430921573A5780075AE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0430931573A5780075AE6C /* Kinesis Simulator-Info.plist */,
+				EC0430941573A5780075AE6C /* InfoPlist.strings */,
+				EC0430971573A5780075AE6C /* main.m */,
+				EC0430991573A5780075AE6C /* Kinesis Simulator-Prefix.pch */,
+				EC04309A1573A5780075AE6C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0430861573A5780075AE6C /* Kinesis Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0430A51573A5790075AE6C /* Build configuration list for PBXNativeTarget "Kinesis Simulator" */;
+			buildPhases = (
+				EC0430831573A5780075AE6C /* Sources */,
+				EC0430841573A5780075AE6C /* Frameworks */,
+				EC0430851573A5780075AE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinesis Simulator";
+			productName = "Kinesis Simulator";
+			productReference = EC0430871573A5780075AE6C /* Kinesis Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC04307E1573A5780075AE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EC0430811573A5780075AE6C /* Build configuration list for PBXProject "Kinesis Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC04307C1573A5780075AE6C;
+			productRefGroup = EC0430881573A5780075AE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0430861573A5780075AE6C /* Kinesis Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0430851573A5780075AE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0430961573A5780075AE6C /* InfoPlist.strings in Resources */,
+				EC04309C1573A5780075AE6C /* Credits.rtf in Resources */,
+				EC0430A21573A5790075AE6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0430831573A5780075AE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0430981573A5780075AE6C /* main.m in Sources */,
+				EC04309F1573A5780075AE6C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC0430941573A5780075AE6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0430951573A5780075AE6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC04309A1573A5780075AE6C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC04309B1573A5780075AE6C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC0430A01573A5790075AE6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0430A11573A5790075AE6C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0430A31573A5790075AE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC0430A41573A5790075AE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC0430A61573A5790075AE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
+				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC0430A71573A5790075AE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
+				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0430811573A5780075AE6C /* Build configuration list for PBXProject "Kinesis Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0430A31573A5790075AE6C /* Debug */,
+				EC0430A41573A5790075AE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0430A51573A5790075AE6C /* Build configuration list for PBXNativeTarget "Kinesis Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0430A61573A5790075AE6C /* Debug */,
+				EC0430A71573A5790075AE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC04307E1573A5780075AE6C /* Project object */;
+}
