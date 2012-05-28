@@ -21,12 +21,12 @@
 		EC04308E1573A5780075AE6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EC04308F1573A5780075AE6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EC0430901573A5780075AE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EC0430931573A5780075AE6C /* Kinesis Simulator-Info.plist */ = {isa = PBXFileReference; path = "Kinesis Simulator-Info.plist"; sourceTree = "<group>"; };
+		EC0430931573A5780075AE6C /* Kinesis Simulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kinesis Simulator-Info.plist"; sourceTree = "<group>"; };
 		EC0430951573A5780075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC0430971573A5780075AE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC0430991573A5780075AE6C /* Kinesis Simulator-Prefix.pch */ = {isa = PBXFileReference; path = "Kinesis Simulator-Prefix.pch"; sourceTree = "<group>"; };
+		EC0430991573A5780075AE6C /* Kinesis Simulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kinesis Simulator-Prefix.pch"; sourceTree = "<group>"; };
 		EC04309B1573A5780075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EC04309D1573A5780075AE6C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC04309D1573A5780075AE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC04309E1573A5780075AE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC0430A11573A5790075AE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
