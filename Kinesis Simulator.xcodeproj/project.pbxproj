@@ -43,6 +43,7 @@
 		ECFAA5C91573EDC300CB3473 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFAA5C81573EDC300CB3473 /* Security.framework */; };
 		ECFAA5D0157410D200CB3473 /* KinesisConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5CF157410D200CB3473 /* KinesisConnection.m */; };
 		ECFAA5D3157410E900CB3473 /* KinesisWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */; };
+		ECFAA5D61574169D00CB3473 /* KinesisServer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5D51574169D00CB3473 /* KinesisServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,8 @@
 		ECFAA5CF157410D200CB3473 /* KinesisConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinesisConnection.m; sourceTree = "<group>"; };
 		ECFAA5D1157410E900CB3473 /* KinesisWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinesisWebSocket.h; sourceTree = "<group>"; };
 		ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinesisWebSocket.m; sourceTree = "<group>"; };
+		ECFAA5D41574169D00CB3473 /* KinesisServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinesisServer.h; sourceTree = "<group>"; };
+		ECFAA5D51574169D00CB3473 /* KinesisServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinesisServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 				ECFAA5CF157410D200CB3473 /* KinesisConnection.m */,
 				ECFAA5D1157410E900CB3473 /* KinesisWebSocket.h */,
 				ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */,
+				ECFAA5D41574169D00CB3473 /* KinesisServer.h */,
+				ECFAA5D51574169D00CB3473 /* KinesisServer.m */,
 			);
 			path = "Kinesis Simulator";
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				ECFAA5C11573E55F00CB3473 /* DispatchQueueLogFormatter.m in Sources */,
 				ECFAA5D0157410D200CB3473 /* KinesisConnection.m in Sources */,
 				ECFAA5D3157410E900CB3473 /* KinesisWebSocket.m in Sources */,
+				ECFAA5D61574169D00CB3473 /* KinesisServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

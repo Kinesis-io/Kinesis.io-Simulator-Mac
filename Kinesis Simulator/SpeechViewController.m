@@ -7,6 +7,7 @@
 //
 
 #import "SpeechViewController.h"
+#import "KinesisServer.h"
 
 @interface SpeechViewController ()
 
@@ -26,5 +27,6 @@
 }
 
 - (IBAction)sendCommands:(id)sender {
+    [[KinesisServer shared] broadcastSocketMessage:[NSString stringWithFormat:@"{\"gestures\":[{\"type\":4,\"command\":\"%@\"}}],\"cursor\":{{\"x\":50,\"y\":50,\"z\":50}}}}", [[self commands] stringValue]]];
 }
 @end

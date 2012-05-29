@@ -13,6 +13,8 @@
 @property (weak) IBOutlet NSTextField *originalY;
 @property (weak) IBOutlet NSTextField *originalZ;
 
+- (void) sendGestureOfType:(NSUInteger) type withJoint:(NSUInteger) joint andDirection:(NSUInteger) direction;
+
 - (IBAction)swipeLeft:(id)sender;
 - (IBAction)swipeRight:(id)sender;
 - (IBAction)swipeUp:(id)sender;

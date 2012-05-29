@@ -14,9 +14,8 @@
 @synthesize ws;
 
 - (WebSocket *) webSocketForURI:(NSString *)path {
-    if([path isEqualToString:@"/service"])
+    if([path isEqualToString:@"/"])
 	{
-		
 		return [[KinesisWebSocket alloc] initWithRequest:request socket:asyncSocket];		
 	}
 	return [super webSocketForURI:path];
