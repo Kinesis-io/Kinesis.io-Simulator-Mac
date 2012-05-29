@@ -17,13 +17,13 @@
 @synthesize connectKinectButton = _connectKinectButton;
 @synthesize disconnectKinectButton = _disconnectKinectButton;
 @synthesize window = _window;
-@synthesize handTrackingView = _handTrackingView;
 @synthesize tabView = _tabView;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    [[self window] setAcceptsMouseMovedEvents:YES];
 }
 
 - (IBAction)startServer:(id)sender {

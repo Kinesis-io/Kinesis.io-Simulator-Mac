@@ -11,7 +11,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSView *handTrackingView;
 
 @property (weak) IBOutlet NSTabView *tabView;
 

@@ -7,7 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TrackerView.h"
 
-@interface HandTrackingViewController : NSViewController
+@interface HandTrackingViewController : NSViewController <TrackerViewDelegate>
+@property (weak) IBOutlet TrackerView *trackerView;
+@property (weak) IBOutlet NSImageView *trackBall;
+
+@property float depth;
 
 @end
