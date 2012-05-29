@@ -14,6 +14,8 @@
 		EC04309F1573A5780075AE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04309E1573A5780075AE6C /* AppDelegate.m */; };
 		EC0430A21573A5790075AE6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0430A01573A5790075AE6C /* MainMenu.xib */; };
 		EC0430AB1573AD5F0075AE6C /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0430AA1573AD5F0075AE6C /* GesturesViewController.m */; };
+		ECD5CBBF1574B5E30094A49C /* handTrackingbg.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */; };
+		ECD5CBC01574B5E30094A49C /* handTracker.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD5CBBE1574B5E30094A49C /* handTracker.png */; };
 		ECFAA55C1573B21800CB3473 /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA55B1573B21800CB3473 /* SpeechViewController.m */; };
 		ECFAA5601573B22300CB3473 /* HandTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA55F1573B22300CB3473 /* HandTrackingViewController.m */; };
 		ECFAA5AB1573E55F00CB3473 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECFAA5771573E55F00CB3473 /* About.txt */; };
@@ -63,6 +65,8 @@
 		EC0430A81573A9580075AE6C /* Kinesis Simulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Kinesis Simulator.entitlements"; sourceTree = "<group>"; };
 		EC0430A91573AD5F0075AE6C /* GesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
 		EC0430AA1573AD5F0075AE6C /* GesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
+		ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handTrackingbg.png; sourceTree = "<group>"; };
+		ECD5CBBE1574B5E30094A49C /* handTracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handTracker.png; sourceTree = "<group>"; };
 		ECFAA55A1573B21800CB3473 /* SpeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechViewController.h; sourceTree = "<group>"; };
 		ECFAA55B1573B21800CB3473 /* SpeechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
 		ECFAA55E1573B22300CB3473 /* HandTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandTrackingViewController.h; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 		EC04307C1573A5780075AE6C = {
 			isa = PBXGroup;
 			children = (
+				ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */,
+				ECD5CBBE1574B5E30094A49C /* handTracker.png */,
 				ECFAA5751573E55F00CB3473 /* Vendor */,
 				EC0430911573A5780075AE6C /* Kinesis Simulator */,
 				EC04308A1573A5780075AE6C /* Frameworks */,
@@ -369,6 +375,8 @@
 				ECFAA5AB1573E55F00CB3473 /* About.txt in Resources */,
 				ECFAA5BA1573E55F00CB3473 /* About.txt in Resources */,
 				ECFAA5C21573E55F00CB3473 /* README.txt in Resources */,
+				ECD5CBBF1574B5E30094A49C /* handTrackingbg.png in Resources */,
+				ECD5CBC01574B5E30094A49C /* handTracker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
