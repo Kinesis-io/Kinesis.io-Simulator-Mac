@@ -26,6 +26,10 @@
     [[self window] setAcceptsMouseMovedEvents:YES];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
+}
+
 - (IBAction)startServer:(id)sender {
     //start server
     [[self startServerButton] setEnabled:NO];

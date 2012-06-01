@@ -34,6 +34,7 @@
 - (void) mouseDragged:(NSEvent *)theEvent {
     NSPoint event_location = [theEvent locationInWindow];
     NSPoint local_point = [self convertPoint:event_location fromView:nil];
+    NSLog(@"%@", NSStringFromPoint(local_point));
     if ([delegate respondsToSelector:@selector(trackerView:mouseDraggedToPoint:)]) {
         [delegate trackerView:self mouseDraggedToPoint:local_point];
     }
