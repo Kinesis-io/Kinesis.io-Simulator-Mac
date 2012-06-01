@@ -12,12 +12,12 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-@property (weak) IBOutlet NSTabView *tabView;
+@property (unsafe_unretained) IBOutlet NSTabView *tabView;
 
-@property (weak) IBOutlet NSButton *startServerButton;
-@property (weak) IBOutlet NSButton *stopServerButton;
-@property (weak) IBOutlet NSButton *connectKinectButton;
-@property (weak) IBOutlet NSButton *disconnectKinectButton;
+@property (unsafe_unretained) IBOutlet NSButton *startServerButton;
+@property (unsafe_unretained) IBOutlet NSButton *stopServerButton;
+@property (unsafe_unretained) IBOutlet NSButton *connectKinectButton;
+@property (unsafe_unretained) IBOutlet NSButton *disconnectKinectButton;
 
 - (IBAction)startServer:(id)sender;
 - (IBAction)stopServer:(id)sender;

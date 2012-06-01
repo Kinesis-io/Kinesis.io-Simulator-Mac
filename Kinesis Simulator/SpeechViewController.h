@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface SpeechViewController : NSViewController
-@property (weak) IBOutlet NSTextField *commands;
+@property (unsafe_unretained) IBOutlet NSTextField *commands;
 - (IBAction)sendCommands:(id)sender;
 
 @end

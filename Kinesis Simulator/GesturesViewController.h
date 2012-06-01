@@ -9,9 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface GesturesViewController : NSViewController
-@property (weak) IBOutlet NSTextField *originalX;
-@property (weak) IBOutlet NSTextField *originalY;
-@property (weak) IBOutlet NSTextField *originalZ;
+@property (unsafe_unretained) IBOutlet NSTextField *originalX;
+@property (unsafe_unretained) IBOutlet NSTextField *originalY;
+@property (unsafe_unretained) IBOutlet NSTextField *originalZ;
 
 - (void) sendGestureOfType:(NSUInteger) type withJoint:(NSUInteger) joint andDirection:(NSUInteger) direction;
 

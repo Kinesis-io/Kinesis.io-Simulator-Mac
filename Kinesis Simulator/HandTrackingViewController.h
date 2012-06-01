@@ -10,8 +10,8 @@
 #import "TrackerView.h"
 
 @interface HandTrackingViewController : NSViewController <TrackerViewDelegate>
-@property (weak) IBOutlet TrackerView *trackerView;
-@property (weak) IBOutlet NSImageView *trackBall;
+@property (unsafe_unretained) IBOutlet TrackerView *trackerView;
+@property (unsafe_unretained) IBOutlet NSImageView *trackBall;
 
 @property float depth;
 
