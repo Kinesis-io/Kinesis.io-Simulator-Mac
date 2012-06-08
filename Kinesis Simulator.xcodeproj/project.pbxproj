@@ -38,6 +38,9 @@
 		EC180A39157F88710066A7BA /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC180A1F157F88710066A7BA /* DispatchQueueLogFormatter.m */; };
 		EC180A3A157F88710066A7BA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC180A20157F88710066A7BA /* README.txt */; };
 		EC180A3C157F88710066A7BA /* PLWeakCompatibilityStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = EC180A24157F88710066A7BA /* PLWeakCompatibilityStubs.m */; };
+		EC5C7E8D1581FF0B005723C5 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5C7E8C1581FF0B005723C5 /* Sparkle.framework */; };
+		EC5C7E901581FF49005723C5 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC5C7E8C1581FF0B005723C5 /* Sparkle.framework */; };
+		EC5C7E9215820067005723C5 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = EC5C7E9115820067005723C5 /* dsa_pub.pem */; };
 		EC6670691579006D0070A199 /* SimIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EC6670681579006D0070A199 /* SimIcon.icns */; };
 		ECD5CBBF1574B5E30094A49C /* handTrackingbg.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */; };
 		ECD5CBC01574B5E30094A49C /* handTracker.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD5CBBE1574B5E30094A49C /* handTracker.png */; };
@@ -49,6 +52,19 @@
 		ECFAA5D3157410E900CB3473 /* KinesisWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5D2157410E900CB3473 /* KinesisWebSocket.m */; };
 		ECFAA5D61574169D00CB3473 /* KinesisServer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAA5D51574169D00CB3473 /* KinesisServer.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC5C7E8F1581FF37005723C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC5C7E901581FF49005723C5 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EC0430871573A5780075AE6C /* Kinesis Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinesis Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +130,8 @@
 		EC180A20157F88710066A7BA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		EC180A23157F88710066A7BA /* PLWeakCompatibilityStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLWeakCompatibilityStubs.h; sourceTree = "<group>"; };
 		EC180A24157F88710066A7BA /* PLWeakCompatibilityStubs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLWeakCompatibilityStubs.m; sourceTree = "<group>"; };
+		EC5C7E8C1581FF0B005723C5 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		EC5C7E9115820067005723C5 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		EC6670681579006D0070A199 /* SimIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SimIcon.icns; sourceTree = "<group>"; };
 		ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handTrackingbg.png; sourceTree = "<group>"; };
 		ECD5CBBE1574B5E30094A49C /* handTracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handTracker.png; sourceTree = "<group>"; };
@@ -140,6 +158,7 @@
 				EC1809EA157F85F60066A7BA /* Foundation.framework in Frameworks */,
 				EC04308C1573A5780075AE6C /* Cocoa.framework in Frameworks */,
 				ECFAA5C91573EDC300CB3473 /* Security.framework in Frameworks */,
+				EC5C7E8D1581FF0B005723C5 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +168,7 @@
 		EC04307C1573A5780075AE6C = {
 			isa = PBXGroup;
 			children = (
+				EC5C7E8C1581FF0B005723C5 /* Sparkle.framework */,
 				EC1809ED157F88710066A7BA /* Vendor */,
 				EC6670681579006D0070A199 /* SimIcon.icns */,
 				ECD5CBBD1574B5E30094A49C /* handTrackingbg.png */,
@@ -216,6 +236,7 @@
 		EC0430921573A5780075AE6C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC5C7E9115820067005723C5 /* dsa_pub.pem */,
 				EC0430931573A5780075AE6C /* Kinesis Simulator-Info.plist */,
 				EC0430941573A5780075AE6C /* InfoPlist.strings */,
 				EC0430971573A5780075AE6C /* main.m */,
@@ -338,6 +359,7 @@
 				EC0430831573A5780075AE6C /* Sources */,
 				EC0430841573A5780075AE6C /* Frameworks */,
 				EC0430851573A5780075AE6C /* Resources */,
+				EC5C7E8F1581FF37005723C5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -385,6 +407,7 @@
 				ECD5CBC01574B5E30094A49C /* handTracker.png in Resources */,
 				EC6670691579006D0070A199 /* SimIcon.icns in Resources */,
 				EC180A3A157F88710066A7BA /* README.txt in Resources */,
+				EC5C7E9215820067005723C5 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +541,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
 				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
@@ -540,6 +567,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinesis Simulator/Kinesis Simulator-Prefix.pch";
 				INFOPLIST_FILE = "Kinesis Simulator/Kinesis Simulator-Info.plist";
