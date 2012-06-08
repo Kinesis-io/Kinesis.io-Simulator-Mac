@@ -35,6 +35,6 @@
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>SUFeedURL</key>
-	<string>http://cdn.kinesis.io/osx_simulator/appcast.xml</string>
+	<string>http://download.kinesis.io/osx_simulator/appcast.xml</string>
 </dict>
 </plist>

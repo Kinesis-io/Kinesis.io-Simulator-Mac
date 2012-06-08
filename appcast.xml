@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
       <title>Kinesis Simulator Changelog</title>
-      <link>http://cdn.kinesis.io/osx_simulator/appcast.xml</link>
+      <link>http://download.kinesis.io/osx_simulator/appcast.xml</link>
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
             <title>Version 1.0</title>
-            <sparkle:releaseNotesLink>http://cdn.kinesis.io/osx_simulator/v1.0index.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://download.kinesis.io/osx_simulator/1.0/index.html</sparkle:releaseNotesLink>
             <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
-            <enclosure url="http://cdn.kinesis.io/osx_simulator/v1.0sim.zip" sparkle:version="1.0" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+            <enclosure url="http://download.kinesis.io/osx_simulator/1.0/sim.zip" sparkle:version="1.0" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
          </item>
    </channel>
 </rss>
