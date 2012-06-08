@@ -9,7 +9,7 @@
             <title>Version 1.0</title>
             <sparkle:releaseNotesLink>http://download.kinesis.io/osx_simulator/1.0/index.html</sparkle:releaseNotesLink>
             <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
-            <enclosure url="http://download.kinesis.io/osx_simulator/1.0/sim.zip" sparkle:version="1.0" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+            <enclosure url="http://download.kinesis.io/osx_simulator/1.0/sim.zip" sparkle:version="1" length="1623481" type="application/octet-stream" sparkle:dsaSignature="MC0CFE0x68dbPfvTTbl/9qNr5JqIl4G6AhUA0cwdqoeNpN+2wduprfMaud7Ka24=" />
          </item>
    </channel>
 </rss>
